@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane minHeight="300.0" minWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="asa.address.plan.MassEditController">
+   <children>
+      <GridPane alignment="TOP_CENTER" layoutX="14.0" layoutY="14.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="NEVER" maxWidth="136.3685760498047" minWidth="10.0" prefWidth="82.50247192382812" />
+          <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" valignment="CENTER" vgrow="ALWAYS" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label text="date" />
+            <Label text="time" GridPane.rowIndex="1" />
+            <Label text="title" GridPane.rowIndex="2" />
+            <Label text="altar service" GridPane.rowIndex="3" GridPane.valignment="TOP" />
+            <DatePicker fx:id="dateLabel" GridPane.columnIndex="1" />
+            <TextField fx:id="timeLabel" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <TextField fx:id="titelLabel" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <ListView fx:id="listLabel" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <children>
+                  <Button fx:id="plus" mnemonicParsing="false" onAction="#handlePlus" text="+" />
+                  <Button fx:id="minus" mnemonicParsing="false" onAction="#handleMinus" text="-" />
+                  <Pane prefHeight="200.0" prefWidth="90.0" HBox.hgrow="SOMETIMES" />
+                  <Button fx:id="save" mnemonicParsing="false" onAction="#handleSave" prefHeight="27.0" prefWidth="109.0" text="save" />
+               </children>
+            </HBox>
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>
