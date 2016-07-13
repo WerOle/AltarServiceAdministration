@@ -6,12 +6,12 @@ More about the altar service version:
 ATTENTION! Some parts of this application are GERMAN, because it is already in service at my altar service group!
 If it is opaque, please tell me.
 
-For sending Mails the configuration is set for 'gmx.net', in further versions it will be modifiable.
+For sending mails the configuration is set for 'gmx.net', in further versions it will be modifiable.
 
-Most functions that will ne used from the application will write this in a txt-File (logger.txt),
-so that somebody else can read, which functions are used or if an error occurs.
+Most functions that will be used from the application, will write this in a txt-File (logger.txt),
+so that somebody else can read, which functions are used or if an error has been occured.
 
-This application includes the possibility to send mails in different ways.
+This application includes the possibility to send mails in different ways:
 1) SingleMail: just for a single mail to one receiver.
 2) GroupMail: sending a mail to all persons in your administration or to a lot of them.
 	The people are divided in five groups (this belongs to our special structure at our rectory!)
