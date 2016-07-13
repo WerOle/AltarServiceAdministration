@@ -6,6 +6,8 @@ More about the altar service version:
 ATTENTION! Some parts of this application are GERMAN, because it is already in service at my altar service group!
 If it is opaque, please tell me.
 
+For sending Mails the configuration is set for 'gmx.net', in further versions it will be modifiable.
+
 Most functions that will ne used from the application will write this in a txt-File (logger.txt),
 so that somebody else can read, which functions are used or if an error occurs.
 
